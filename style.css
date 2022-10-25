@@ -4,25 +4,25 @@
     box-sizing: border-box;
     line-height: 1.5;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #101010;
 }
 
 :root{
     --color:#ff282b;
 }
 
+
 section{
     height: 100vh;
-    display: flex;
-    align-items: center;
-    background: #101010;
 }
 
 .container{
-    width: 100%;
+    width: 100vw;
     max-width: 1160px;
+    height: 100vh;
     margin: 0 auto;
     padding: 0 20px;
-    background: #101010;
+    display: flex;
 }
 
 .grid{
@@ -30,7 +30,6 @@ section{
     grid-template-columns: repeat(2,1fr);
     gap: 2.5rem;
     align-items: center;
-    justify-content: center;
 }
 
 .left img{
